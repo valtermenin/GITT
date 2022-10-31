@@ -10,7 +10,7 @@ git remote add origin https://github.com/username/repositório.git
 git push -u origin main
 
 
-Implantar
+Implantar arquivos
 git status
 git add --all .
 git status
