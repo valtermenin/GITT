@@ -1,0 +1,18 @@
+Tutorial como utilizar o GIT
+
+Iniciar repositório local
+echo "# html" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/username/repositório.git
+git push -u origin main
+
+
+Implantar
+git status
+git add --all .
+git status
+git commit -m "Modified templates to display posts from database."
+git push
